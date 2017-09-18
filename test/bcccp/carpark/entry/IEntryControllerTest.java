@@ -43,7 +43,7 @@ public class IEntryControllerTest {
         System.out.println("buttonPushed");
         IEntryController instance = new IEntryControllerImpl();
         instance.buttonPushed();
-        // TODO review the generated test code and remove the default call to fail.
+        // TODO review the generated test code.
         
     }
 
