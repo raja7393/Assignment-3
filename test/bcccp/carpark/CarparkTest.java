@@ -243,7 +243,8 @@ public class CarparkTest {
         boolean expResult = false;
         boolean result = instance.isSeasonTicketInUse(ticketId);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
+    //STUB   
+ // TODO review the generated test code and remove the default call to fail.
         
     }
     
