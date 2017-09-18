@@ -63,7 +63,7 @@ public class AdhocTicketDAOTest {
         IAdhocTicket expResult = null;
         IAdhocTicket result = instance.findTicketByBarcode(barcode);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
+        // TODO review the generated test code.
         
     }
 
