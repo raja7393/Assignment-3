@@ -42,7 +42,7 @@ public class AdhocTicketDAOTest {
      */
     @Test
     public void testCreateTicket() {
-        System.out.println("createTicket");
+        System.out.println("Ticket created");
         String carparkId = "";
         AdhocTicketDAO instance = null;
         IAdhocTicket expResult = null;
