@@ -84,7 +84,7 @@ public class AdhocTicketTest {
         long entryDateTime = 0L;
         AdhocTicket instance = null;
         instance.enter(entryDateTime);
-        // TODO review the generated test code and remove the default call to fail.
+        // TODO review the generated test code.
            }
 
     /**
