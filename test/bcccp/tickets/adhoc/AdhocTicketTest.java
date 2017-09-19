@@ -97,7 +97,7 @@ public class AdhocTicketTest {
         long expResult = 0L;
         long result = instance.getEntryDateTime();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
+        // TODO review the generated test code.
         
     }
 
