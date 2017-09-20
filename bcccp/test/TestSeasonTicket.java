@@ -18,3 +18,4 @@ public class TestSeasonTicket {
 	
 	@Before
 	public void setUp() throws Exception {
+		id = mock(ticketId.class);
