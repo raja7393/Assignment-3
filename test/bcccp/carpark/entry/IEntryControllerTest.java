@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ 11618519- Ammar Zafar Raja
  */
 package bcccp.carpark.entry;
 
@@ -14,7 +12,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author 11618519
+ * @author 11618519- Ammar Zafar Raja
  */
 public class IEntryControllerTest {
     
@@ -45,8 +43,8 @@ public class IEntryControllerTest {
         System.out.println("buttonPushed");
         IEntryController instance = new IEntryControllerImpl();
         instance.buttonPushed();
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        // TODO review the generated test code.
+        
     }
 
     /**
@@ -58,8 +56,8 @@ public class IEntryControllerTest {
         String barcode = "";
         IEntryController instance = new IEntryControllerImpl();
         instance.ticketInserted(barcode);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        // TODO review the generated test code.
+        
     }
 
     /**
@@ -71,7 +69,7 @@ public class IEntryControllerTest {
         IEntryController instance = new IEntryControllerImpl();
         instance.ticketTaken();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     public class IEntryControllerImpl implements IEntryController {
