@@ -9,4 +9,7 @@ import org.junit.Test;
 import java.time.LocalDate;
 import java.time.Month;
 
-import bcccp.*;
+import bcccp.tickets.season.*;
+
+public class TestSeasonTicket {
+	
