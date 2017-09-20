@@ -24,6 +24,7 @@ public class TestSeasonTicket {
 		endValidPeriod = mock(endValidPeriod.class);
 	}
 	
+	@After
 	
 		
 		
