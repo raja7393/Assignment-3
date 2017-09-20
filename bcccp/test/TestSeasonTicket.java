@@ -17,4 +17,4 @@ public class TestSeasonTicket {
 	IUsageRecord currentUsage = null;
 	
 	@Before
-	
+	public void setUp() throws Exception {
