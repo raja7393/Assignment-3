@@ -30,5 +30,8 @@ public class TestSeasonTicket {
 	public void tearDown() throws Exception {
 		sut = null;
 	}
+	
+	@Test
+	
 		
 		
