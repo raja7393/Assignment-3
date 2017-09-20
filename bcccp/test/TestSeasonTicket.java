@@ -37,3 +37,4 @@ public class TestSeasonTicket {
 		assertEquals(sut.getId(), ticketId);
 		assertEquals(sut.getcarparkId(), carparkId);
 		assertEquals(sut.getStartValidPeriod(), startValidPeriod);
+		assertEquals(sut.getEndValidPeriod(), endValidPeriod);
