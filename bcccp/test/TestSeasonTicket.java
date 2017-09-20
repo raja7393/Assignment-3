@@ -34,5 +34,5 @@ public class TestSeasonTicket {
 	@Test
 	public void testInit() {
 		assertTrue(sut instanceof ISeasonTicket);
-		
+		assertEquals(sut.getId(), ticketId);
 		
