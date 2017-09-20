@@ -20,4 +20,6 @@ public class TestSeasonTicket {
 	public void setUp() throws Exception {
 		id = mock(ticketId.class);
 		carparkId = mock(carparkId.class);
+		startValidPeriod = mock(startValidPeriod.class)
+		
 		
