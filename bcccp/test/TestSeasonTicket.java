@@ -22,6 +22,8 @@ public class TestSeasonTicket {
 		carparkId = mock(carparkId.class);
 		startValidPeriod = mock(startValidPeriod.class);
 		endValidPeriod = mock(endValidPeriod.class);
-		
+	}
+	
+	
 		
 		
