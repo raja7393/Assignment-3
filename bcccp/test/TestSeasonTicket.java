@@ -28,5 +28,7 @@ public class TestSeasonTicket {
 	
 	@After
 	public void tearDown() throws Exception {
+		sut = null;
+	
 		
 		
