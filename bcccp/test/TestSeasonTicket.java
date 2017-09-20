@@ -13,3 +13,5 @@ import bcccp.tickets.season.*;
 
 public class TestSeasonTicket {
 	
+	List<IUsageRecord> usages;
+	
