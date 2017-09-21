@@ -69,5 +69,8 @@ public class TestSeasonTicket {
 	public void testUpdateCurrentDateEqualDue() {
 		sut.commit(1);
 		LocalDate currentDate = dueDate;
+		sut.update(currentDate);
+		
+		assertEquals(sut.getState(),ILoan.State.CURRENT);
 }
 
