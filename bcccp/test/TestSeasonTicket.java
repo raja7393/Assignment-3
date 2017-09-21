@@ -50,4 +50,6 @@ public class TestSeasonTicket {
 	public void testConstructorWithendValidPeriodLessThanstartValidPeriod() {
 		sut = new SeasonTicket(null, id, carparkId, startValidPeriod, endValidPeriod);	
 		fail("Should bave thrown exception");
+	}
+	
 		
