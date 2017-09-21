@@ -44,3 +44,4 @@ public class TestSeasonTicket {
 	public void testConstructorWithNullBook() {
 		sut = new SeasonTicket(null, id, carparkId, startValidPeriod, endValidPeriod);	
 		fail("Should bave thrown exception");
+	}
