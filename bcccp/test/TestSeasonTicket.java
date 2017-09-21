@@ -72,5 +72,6 @@ public class TestSeasonTicket {
 		sut.update(currentDate);
 		
 		assertEquals(sut.getState(),ILoan.State.CURRENT);
+	}
 }
 
