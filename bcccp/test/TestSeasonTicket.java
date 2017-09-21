@@ -41,7 +41,7 @@ public class TestSeasonTicket {
 	}
 	
 	@Test(expected=RuntimeException.class) 
-	public void testConstructorWithNullBook() {
+	public void testConstructorWithNullTicketId() {
 		sut = new SeasonTicket(null, id, carparkId, startValidPeriod, endValidPeriod);	
 		fail("Should bave thrown exception");
 	}
