@@ -45,3 +45,5 @@ public class TestSeasonTicket {
 		sut = new SeasonTicket(null, id, carparkId, startValidPeriod, endValidPeriod);	
 		fail("Should bave thrown exception");
 	}
+	
+	@Test(expected=RuntimeException.class) 
