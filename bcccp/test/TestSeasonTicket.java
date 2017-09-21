@@ -61,3 +61,4 @@ public class TestSeasonTicket {
 		//verifies and asserts
 		verify(id).startValidPeriod(sut);
 		verify(carparkId).addSeasonTicket(sut);
+		assertEquals(sut.getId(),ISeasonTicket.State.CURRENT);
