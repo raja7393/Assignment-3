@@ -64,5 +64,8 @@ public class TestSeasonTicket {
 		assertEquals(sut.getId(),ISeasonTicket.State.CURRENT);
 		assertTrue(1 == sut.getId());
 		}
+		
+	@Test
+	public void testUpdateCurrentDateEqualDue() {
 }
 
