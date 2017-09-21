@@ -57,4 +57,5 @@ public class TestSeasonTicket {
 		//setup
 		
 		//execute
+		sut.commit(1);
 		
