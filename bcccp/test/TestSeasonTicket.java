@@ -42,3 +42,4 @@ public class TestSeasonTicket {
 	
 	@Test(expected=RuntimeException.class) 
 	public void testConstructorWithNullBook() {
+		sut = new SeasonTicket(null, id, carparkId, startValidPeriod, endValidPeriod);	
