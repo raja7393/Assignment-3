@@ -52,4 +52,5 @@ public class TestSeasonTicket {
 		fail("Should bave thrown exception");
 	}
 	
+	@Test
 		
