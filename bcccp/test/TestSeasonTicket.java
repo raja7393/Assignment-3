@@ -48,4 +48,5 @@ public class TestSeasonTicket {
 	
 	@Test(expected=RuntimeException.class) 
 	public void testConstructorWithendValidPeriodLessThanstartValidPeriod() {
+		sut = new SeasonTicket(null, id, carparkId, startValidPeriod, endValidPeriod);	
 		
