@@ -67,5 +67,7 @@ public class TestSeasonTicket {
 		
 	@Test
 	public void testUpdateCurrentDateEqualDue() {
+		sut.commit(1);
+		LocalDate currentDate = dueDate;
 }
 
