@@ -60,4 +60,4 @@ public class TestSeasonTicket {
 		sut.commit(1);
 		//verifies and asserts
 		verify(id).startValidPeriod(sut);
-		
+		verify(carparkId).addSeasonTicket(sut);
