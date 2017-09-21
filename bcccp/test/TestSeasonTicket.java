@@ -40,3 +40,5 @@ public class TestSeasonTicket {
 		assertEquals(sut.getEndValidPeriod(), endValidPeriod);
 	}
 	
+	@Test(expected=RuntimeException.class) 
+	
