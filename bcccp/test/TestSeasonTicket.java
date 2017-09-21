@@ -58,4 +58,6 @@ public class TestSeasonTicket {
 		
 		//execute
 		sut.commit(1);
+		//verifies and asserts
+		
 		
