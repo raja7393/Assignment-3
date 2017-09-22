@@ -32,6 +32,7 @@ public class PaystationController
 	
 	private void log(String message) {
 		System.out.println("EntryController : " + message);
+System.out.print("entry done");
 	}
 
 	
