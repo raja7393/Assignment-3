@@ -55,6 +55,7 @@ System.out.print("entry done");
 		case REJECTED: 
 			state_ = STATE.WAITING;
 			log("setState: WAITING");
+                         System.out.print("Waiting");
 			break;
 			
 		case PAID: 
