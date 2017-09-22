@@ -79,6 +79,7 @@ System.out.print("entry done");
 				charge_ = carpark_.calculateAddHocTicketCharge(adhocTicket_.getEntryDateTime());
 				ui_.display("Pay " + String.format("%.2f", charge_));
 				setState(STATE.WAITING);
+                                 System.out.print("warning");
 			}
 			else {
 				ui_.beep();
