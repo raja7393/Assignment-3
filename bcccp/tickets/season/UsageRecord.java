@@ -23,7 +23,7 @@ public class UsageRecord implements IUsageRecord {
 	
 	@Override
 	public long getStartTime() {
-             System.out.print("startDateTime");
+             System.out.print(startDateTime);
 		return startDateTime;
 	}
 
@@ -31,7 +31,7 @@ public class UsageRecord implements IUsageRecord {
 
 	@Override
 	public long getEndTime() {
-              System.out.print("endDateTime");
+              System.out.print(endDateTime);
 		return endDateTime;
 	}
 
@@ -40,6 +40,7 @@ public class UsageRecord implements IUsageRecord {
 	@Override
 	public String getSeasonTicketId() {
 		return ticketId;
+                 System.out.print(ticketId);
 	}
 
 	
