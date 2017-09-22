@@ -31,6 +31,7 @@ public class UsageRecord implements IUsageRecord {
 
 	@Override
 	public long getEndTime() {
+              System.out.print("endDateTime");
 		return endDateTime;
 	}
 
