@@ -23,6 +23,7 @@ public class UsageRecord implements IUsageRecord {
 	
 	@Override
 	public long getStartTime() {
+             System.out.print("startDateTime");
 		return startDateTime;
 	}
 
